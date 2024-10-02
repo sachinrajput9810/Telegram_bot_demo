@@ -1,7 +1,7 @@
 const axios = require('axios')
 const { Telegraf } = require('telegraf')
 
-const bot = new Telegraf('7560685887:AAEVGRM-qX8EW4Zg-VhdnanEOQy0TALodGM')
+const bot = new Telegraf('Your telegram API key')
 
 bot.start( (ctx) => ctx.reply("Ajjo biddu log in the house"))
 
